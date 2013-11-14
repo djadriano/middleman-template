@@ -1,0 +1,61 @@
+// -----------------------------------------------
+// Variables.css.scss
+//
+// Contains variables to help on development
+// -----------------------------------------------
+
+// -----------------------------------------------
+// Define Spaces
+// -----------------------------------------------
+
+$space-5 : rem(5);
+$space-10: rem(10);
+$space-20: rem(20);
+$space-30: rem(30);
+$space-40: rem(40);
+
+// -----------------------------------------------
+// Define Colors
+// -----------------------------------------------
+
+$gradient-gray-bar: linear-gradient(top, #333, #505050);
+$gradient-header  : linear-gradient(top, #f7f7f7, #e0e0e0 50%, #dadada 50%, #dfdfdf);
+
+$color-text-gray-dark    : #363636;
+$color-text-gray-medium  : #4d4d4d;
+$color-text-gray-medium-2: #999;
+$color-text-gray-light   : #c6c6c6;
+$color-text-black        : #000;
+$color-text-white        : #fff;
+$color-text-orange-dark  : #cc9919;
+$color-text-orange       : #ffa91b;
+
+$color-bg-gray-dark  : #909090;
+$color-bg-gray-medium: #d7d7d7;
+$color-bg-gray-light : #f7f7f7;
+$color-bg-white      : #fff;
+$color-bg-orange     : #ffa91b;
+
+// -----------------------------------------------
+// Define Fonts
+// -----------------------------------------------
+
+$font-type-1-light  : 'DIN Next W01 Light';
+$font-type-1-medium : 'DIN Next W01 Medium';
+$font-type-1-regular: 'DIN Next W01 Regular';
+$font-type-2-regular: 'FrutigerNeueW01-Regular';
+$font-type-3-regular: 'Arial';
+$font-type-4        : 'fontello';
+
+// -----------------------------------------------
+// Define Font Sizes
+// -----------------------------------------------
+
+$font-size-default: rem(16);
+$font-size-1      : rem(9);
+$font-size-2      : rem(12);
+$font-size-3      : rem(13);
+$font-size-4      : rem(20);
+$font-size-5      : rem(30);
+$font-size-6      : rem(40);
+$font-size-7      : rem(18);

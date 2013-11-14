@@ -1,0 +1,22 @@
+// -----------------------------------------------
+// Import Core
+// -----------------------------------------------
+
+@import 'globals/core';
+
+// -----------------------------------------------
+// Import Modules
+// -----------------------------------------------
+
+@import 'modules/home/hero';
+@import 'modules/home/intro';
+@import 'modules/home/howto';
+@import 'modules/home/legal';
+@import 'modules/home/nav_buttons';
+@import 'modules/home/player';
+
+// -----------------------------------------------
+// Import Plugins
+// -----------------------------------------------
+
+@import 'plugins/carousel.min';

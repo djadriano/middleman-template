@@ -1,0 +1,43 @@
+// -----------------------------------------------
+// Typography.css.scss
+//
+// Define fonts of project
+// -----------------------------------------------
+
+
+@import url("https://fast.fonts.com/t/1.css?apiType=css&projectid=e0a5a547-56e1-4572-813c-8731ea1be19e");
+
+@font-face {
+  font-family: $font-type-1-light;
+  src: url("/selecoes/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot");
+  src: url("/selecoes/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format('embedded-opentype'),
+      url("/selecoes/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff");
+}
+
+@font-face {
+  font-family: $font-type-1-medium;
+  src:url("/selecoes/fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot");
+  src:url("/selecoes/fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix") format('embedded-opentype'),
+      url("/selecoes/fonts/4bf0ead4-e61b-4992-832b-6ff05828d99f.woff") format("woff");
+}
+
+@font-face {
+  font-family: $font-type-1-regular;
+  src:url("/selecoes/fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot");
+  src:url("/selecoes/fonts/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format('embedded-opentype'),
+      url("/selecoes/fonts/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff");
+}
+
+@font-face {
+  font-family: $font-type-2-regular;
+  src:url("/selecoes/fonts/e2e74e1c-9e18-4127-adfd-feb8f6a9ceaf.eot");
+  src:url("/selecoes/fonts/e2e74e1c-9e18-4127-adfd-feb8f6a9ceaf.eot?#iefix") format('embedded-opentype'),
+      url("/selecoes/fonts/aa94077e-cdcd-4e33-abe0-ddcfe27e3485.woff") format("woff");
+}
+
+@font-face {
+  font-family: $font-type-4;
+  src:url("/selecoes/fonts/fontello.eot");
+  src:url("/selecoes/fonts/fontello.eot?#iefix") format('embedded-opentype'),
+      url("/selecoes/fonts/fontello.woff") format("woff");
+}

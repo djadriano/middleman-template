@@ -15,3 +15,5 @@
 
 # Ignore Bower Libraries
 /public/javascripts/_libraries
+
+/Gemfile.lock

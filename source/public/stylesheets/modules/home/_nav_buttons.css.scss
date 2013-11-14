@@ -1,0 +1,10 @@
+.home-nav-buttons {
+  ul {
+    @extend .is-not-list;
+
+    li {
+      display: inline-block;
+      margin-right: $space-20;
+    }
+  }
+}

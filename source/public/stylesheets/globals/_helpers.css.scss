@@ -1,0 +1,54 @@
+// -----------------------------------------------------------
+// Helpers.css.scss
+//
+// Contains functions and mixins to help on development
+// -----------------------------------------------------------
+
+
+// -----------------------------------------------------------
+// Define Functions
+// -----------------------------------------------------------
+
+@function rem($pxval, $base: 16) {
+  @return #{$pxval / $base}em;
+}
+
+
+// -----------------------------------------------------------
+// Define Mixins
+// -----------------------------------------------------------
+
+@mixin generate-images-classes( $arr-images ) {
+  @each $classes in $arr-images {
+    .#{nth($classes, 1)} {
+      @if length($classes) == 3 {
+        &.active {
+          &:before {
+            content: image-url(nth($classes, 3));
+          }
+        }
+      }
+      &:before {
+        content: image-url(nth($classes, 2));
+      }
+    }
+  }
+}
+
+@mixin generate-icon-classes( $arr-images ) {
+  @each $classes in $arr-images {
+    .#{nth($classes, 1)} {
+      @if length($classes) == 3 {
+        &.active {
+          &:before {
+            content: nth($classes, 3);
+          }
+        }
+      }
+      &:before {
+        font-family: $font-type-4;
+        content: nth($classes, 2);
+      }
+    }
+  }
+}

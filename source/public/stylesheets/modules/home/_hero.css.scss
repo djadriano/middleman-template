@@ -1,0 +1,126 @@
+.home-hero {
+  background: image-url('home/hero.jpg') top center no-repeat;
+  height: rem(723);
+
+  .grid {
+    position: relative;
+  }
+
+  .button-large-orange {
+    position: absolute;
+    top: rem(300);
+    left: 0;
+  }
+
+  .carousel-awards {
+    background: image-url('home/bg-home-intro-features.png') no-repeat;
+    position: absolute;
+    top: rem(30);
+    right: 0;
+    width: rem(374);
+    height: rem(458);
+
+    > h2 {
+      font-size: $font-size-4;
+      margin: rem(20) auto auto;
+      width: rem(250);
+    }
+
+    .home-intro-features-carousel {
+      margin: $space-20 auto auto;
+      position: relative;
+      padding-bottom: $space-20;
+
+      nav {
+        width: rem(374);
+        margin: auto;
+        overflow: hidden;
+
+        .m-carousel-inner {
+          @extend .is-not-list;
+          margin: 0 $space-40;
+
+          li {
+            width: rem(374);
+            text-align: center;
+
+            figure {
+              width: rem(374);
+              height: rem(218);
+              display: table-cell;
+              vertical-align: middle;
+              text-align: center;
+
+              figcaption {
+                font-size: $font-size-default;
+                text-align: center;
+                width: rem(180);
+                margin: rem(10) auto auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .carousel-arrows {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      %arrows {
+        position: absolute;
+        width: rem(19);
+        height: rem(36);
+        top: rem(100);
+        text-indent: -9999px;
+      }
+
+      .arrow-left {
+        @extend %arrows;
+        background: image-url('home/arrows-carousel.png') left top no-repeat;
+        left: $space-20;
+      }
+
+      .arrow-right {
+        @extend %arrows;
+        background: image-url('home/arrows-carousel.png') left -38px no-repeat;
+        right: $space-20;
+      }
+    }
+
+    .carousel-bullets {
+      text-align: center;
+      margin-top: $space-20;
+
+      a {
+        @include transition(background 200ms linear);
+        @include border-radius(6px);
+        background: $color-bg-gray-medium;
+        display: inline-block;
+        margin-right: $space-10;
+        width: $space-10;
+        height: $space-10;
+        text-indent: -9999px;
+
+        &.m-active {
+          background: $color-bg-gray-dark;
+        }
+      }
+    }
+
+    .read-more-link {
+      position: absolute;
+      bottom: -(rem(60));
+      right: rem(42);
+      width: rem(167);
+      height: rem(25);
+      text-indent: -9999px;
+    }
+  }
+
+  &.fluid {
+    margin-top: -(rem(39));
+  }
+}

@@ -1,0 +1,23 @@
+.home-player {
+  figure {
+    a {
+      cursor: pointer;
+    }
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: $space-20;
+    }
+
+    figcaption {
+      display: inline-block;
+      vertical-align: middle;
+      width: rem(500);
+
+      h2 {
+        font-size: $font-size-5;
+      }
+    }
+  }
+}
