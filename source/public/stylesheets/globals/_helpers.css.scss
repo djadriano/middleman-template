@@ -9,8 +9,8 @@
 // Define Functions
 // -----------------------------------------------------------
 
-@function rem($pxval, $base: 16) {
-  @return #{$pxval / $base}em;
+@function em($pixels: 0, $base: 16) {
+  @return scut-em($pixels, $base);
 }
 
 

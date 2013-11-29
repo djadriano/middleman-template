@@ -5,40 +5,23 @@
 // -----------------------------------------------
 
 @import 'compass';
+@import 'scut';
 
 // -----------------------------------------------
 // Import Plugins
 // -----------------------------------------------
 
-@import 'plugins/normalize';
-@import 'plugins/animate.min';
-@import 'plugins/jquery.fancybox';
 
 // -----------------------------------------------
 // Import Globals
 // -----------------------------------------------
 
-@import 'globals/grid';
-@import 'globals/helpers';
-@import 'globals/variables';
-@import 'globals/classes';
-@import 'globals/defaults';
-@import 'globals/typography';
-@import 'globals/images';
 
 // -----------------------------------------------
 // Import Components
 // -----------------------------------------------
 
-@import 'components/buttons';
-@import 'components/lightbox';
-@import 'components/questions_accordion';
 
 // -----------------------------------------------
 // Import Modules
 // -----------------------------------------------
-
-@import 'modules/shared/topbar';
-@import 'modules/shared/header';
-@import 'modules/shared/footer';
-@import 'modules/shared/bottombar';
