@@ -10,45 +10,10 @@
 // -----------------------------------------------------------
 
 @function em($pixels: 0, $base: 16) {
-  @return scut-em($pixels, $base);
+  // @return scut-em($pixels, $base);
 }
 
 
 // -----------------------------------------------------------
 // Define Mixins
 // -----------------------------------------------------------
-
-@mixin generate-images-classes( $arr-images ) {
-  @each $classes in $arr-images {
-    .#{nth($classes, 1)} {
-      @if length($classes) == 3 {
-        &.active {
-          &:before {
-            content: image-url(nth($classes, 3));
-          }
-        }
-      }
-      &:before {
-        content: image-url(nth($classes, 2));
-      }
-    }
-  }
-}
-
-@mixin generate-icon-classes( $arr-images ) {
-  @each $classes in $arr-images {
-    .#{nth($classes, 1)} {
-      @if length($classes) == 3 {
-        &.active {
-          &:before {
-            content: nth($classes, 3);
-          }
-        }
-      }
-      &:before {
-        font-family: $font-type-4;
-        content: nth($classes, 2);
-      }
-    }
-  }
-}
